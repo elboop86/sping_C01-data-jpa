@@ -1,0 +1,8 @@
+package com.example.repositories;
+
+import com.example.entities.Address;
+import com.example.entities.Author;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AuthorRepository extends JpaRepository <Author, Long> {
+}
